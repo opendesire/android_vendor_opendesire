@@ -1,1 +1,1 @@
-add_lunch_combo opendesire-userdebug
+add_lunch_combo opendesire-eng
