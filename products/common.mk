@@ -37,6 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     CMParts \
     CMPartsHelper \
+    FileManager \
     Superuser
 
 # Common OD overlay
