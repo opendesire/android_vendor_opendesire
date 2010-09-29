@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/opendesire/prebuilt/bin/handle_compcache:system/bin/handle_compcache \
     vendor/opendesire/prebuilt/bin/sysinit:system/bin/sysinit \
     vendor/opendesire/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    vendor/opendesire/prebuilt/etc/hosts:system/etc/hosts \
     vendor/opendesire/prebuilt/etc/init.d/00sysctl:system/etc/init.d/00sysctl \
     vendor/opendesire/prebuilt/etc/init.d/01modules:system/etc/init.d/01modules \
     vendor/opendesire/prebuilt/etc/init.d/10apps2sd:system/etc/init.d/10apps2sd \
