@@ -6,7 +6,7 @@ ifdef OPENDESIRE_NIGHTLY
         ro.modversion=OpenDesire-4-$(shell date +%m%d%Y)-NIGHTLY
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=OpenDesire-4.0.32
+        ro.modversion=OpenDesire-4.0.33
 endif
 
 # Set default ringtone
