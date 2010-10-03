@@ -75,8 +75,6 @@ PRODUCT_COPY_FILES += \
 
 ifdef OPENDESIRE_WITH_GOOGLE
     PRODUCT_COPY_FILES += \
-        vendor/opendesire/proprietary/CarHomeGoogle.apk:./system/app/CarHomeGoogle.apk \
-        vendor/opendesire/proprietary/CarHomeLauncher.apk:./system/app/CarHomeLauncher.apk \
         vendor/opendesire/proprietary/com.google.android.maps.jar:./system/framework/com.google.android.maps.jar \
         vendor/opendesire/proprietary/com.google.android.maps.xml:./system/etc/permissions/com.google.android.maps.xml \
         vendor/opendesire/proprietary/features.xml:./system/etc/permissions/features.xml \
