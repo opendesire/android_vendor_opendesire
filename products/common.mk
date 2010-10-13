@@ -6,7 +6,7 @@ ifdef OPENDESIRE_NIGHTLY
         ro.modversion=OpenDesire-4-$(shell date +%m%d%Y)-NIGHTLY
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=OpenDesire-4.0.34
+        ro.modversion=OpenDesire-4.0.36
 endif
 
 # Set default ringtone
@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
     CMParts \
     CMPartsHelper \
     FileManager \
+    FM \
     Superuser
 
 # Common OD overlay
