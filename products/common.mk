@@ -6,7 +6,7 @@ ifdef OPENDESIRE_NIGHTLY
         ro.modversion=OpenDesire-4-$(shell date +%m%d%Y)-NIGHTLY
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=OpenDesire-4.0.36
+        ro.modversion=OpenDesire-4.0.37
 endif
 
 # Set default ringtone
@@ -92,7 +92,6 @@ ifdef OPENDESIRE_WITH_GOOGLE
         vendor/opendesire/proprietary/HtcCopyright.apk:./system/app/HtcCopyright.apk \
         vendor/opendesire/proprietary/HtcEmailPolicy.apk:./system/app/HtcEmailPolicy.apk \
         vendor/opendesire/proprietary/HtcSettings.apk:./system/app/HtcSettings.apk \
-        vendor/opendesire/proprietary/kickback.apk:./system/app/kickback.apk \
         vendor/opendesire/proprietary/LatinImeTutorial.apk:./system/app/LatinImeTutorial.apk \
         vendor/opendesire/proprietary/libspeech.so:./system/lib/libspeech.so \
         vendor/opendesire/proprietary/libvoicesearch.so:./system/lib/libvoicesearch.so \
@@ -103,9 +102,7 @@ ifdef OPENDESIRE_WITH_GOOGLE
         vendor/opendesire/proprietary/OneTimeInitializer.apk:./system/app/OneTimeInitializer.apk \
         vendor/opendesire/proprietary/PassionQuickOffice.apk:./system/app/PassionQuickOffice.apk \
         vendor/opendesire/proprietary/SetupWizard.apk:./system/app/SetupWizard.apk \
-        vendor/opendesire/proprietary/soundback.apk:./system/app/soundback.apk \
         vendor/opendesire/proprietary/Talk.apk:./system/app/Talk.apk \
-        vendor/opendesire/proprietary/talkback.apk:./system/app/talkback.apk \
         vendor/opendesire/proprietary/Vending.apk:./system/app/Vending.apk \
         vendor/opendesire/proprietary/VoiceSearch.apk:./system/app/VoiceSearch.apk \
         vendor/opendesire/proprietary/YouTube.apk:./system/app/YouTube.apk
